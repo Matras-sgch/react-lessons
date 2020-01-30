@@ -10,4 +10,5 @@
 
 .item.active{
   background-color: purple;
+  font-weight:bold;
 }

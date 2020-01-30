@@ -1,12 +1,12 @@
 import React from 'react';
-import MyPosts from './MyPosts/MyPosts'; 
+import MyPosts from './MyPosts/MyPosts';
 import s from'./Profile.module.css';
 
 const Profile = () =>{
   return(
     <div className={s.content}>
       <div>
-        <img src='https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg'/>
+        <img className = {s.img} src='https://i.mr-7.ru/photos/2019/11/6PfBp9Kgl9b2Fod4uo7j.jpg'/>
       </div>
       <div>
         ava + description...
