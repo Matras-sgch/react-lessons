@@ -11,4 +11,10 @@
 .item.active{
   background-color: purple;
   font-weight:bold;
+  color:white;
+}
+
+
+a{
+  text-decoration: none;
 }
