@@ -1,20 +1,17 @@
 .nav{
   grid-area: n;
   background-color: SkyBlue;
+  padding: 20px;
 }
 
 
-.item{
+.item a{
    color:white;
+   text-decoration: none;
+   font-size: 20px;
 }
 
-.item.active{
-  background-color: purple;
+.item a.active{
+  color: #1F96C6;
   font-weight:bold;
-  color:white;
-}
-
-
-a{
-  text-decoration: none;
 }

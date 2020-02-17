@@ -9,6 +9,7 @@ import News from './components/News/News';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
 import {BrowserRouter, Route} from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 const App = ()=> {
   return (
@@ -23,6 +24,7 @@ const App = ()=> {
           <Route path='/Music' component={Music}/>
           <Route path='/Settings' component={Settings}/>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -1,0 +1,6 @@
+.Footer{
+  grid-area: f;
+  background-color: #73B9D5;
+  color: #055373;
+  padding:20px;
+}

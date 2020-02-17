@@ -4,9 +4,10 @@
   margin:0 auto;
   grid-template-areas:
   "h h "
-  "n c ";
+  "n c "
+  "f f";
 
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 115px 1fr 100px;
   grid-template-columns: 2fr 10fr;
 }
 
@@ -14,4 +15,5 @@
 .app-wrapper-content{
   grid-area:  c;
   background-color: Lavender;
+  padding: 10px;
 }

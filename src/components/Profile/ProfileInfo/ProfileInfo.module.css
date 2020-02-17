@@ -1,0 +1,16 @@
+.inf{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+
+.ava img{
+  height:150px;
+  width:150px;
+  border-radius: 50px;
+}
+
+
+.description{
+  padding-top: 100px;
+}

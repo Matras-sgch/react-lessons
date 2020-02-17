@@ -1,0 +1,14 @@
+.Settings{
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+
+
+.Setting{
+  margin: 30px;
+}
+
+
+.AdditionalSettings{
+  margin:30px;
+}
