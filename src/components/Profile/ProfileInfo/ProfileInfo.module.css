@@ -1,6 +1,7 @@
 .inf{
     display: grid;
     grid-template-columns: 1fr 5fr;
+    padding-bottom: 10px;
 }
 
 
@@ -13,4 +14,5 @@
 
 .description{
   padding-top: 100px;
+  color:#2A4480;
 }
