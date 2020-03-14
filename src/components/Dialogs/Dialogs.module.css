@@ -20,6 +20,12 @@
 }
 
 
+.dialogsItems a.active img{
+  width: 45px;
+  height: 45px;
+  border-radius:22px;
+}
+
 .dialogsItems a.active{
   color: #1F96C6;
   font-weight:bold;
@@ -32,7 +38,10 @@ a{
 }
 
 .message{
-  padding: 10px;
+  background-color: LightBlue;
+  margin:20px;
+  padding:20px;
+  border-radius: 5px;
 }
 
 
@@ -41,4 +50,15 @@ a{
   font-size: 25px;
   color:#2A4480;
   font-weight:bold;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius:20px;
+  position: relative;
+}
+
+Navlink{
+  padding-bottom: 10px;
 }
